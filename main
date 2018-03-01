@@ -1,0 +1,16 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, HTML, CSS, JS.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+public class Main// Esto es un comentario
+{
+	public static void main(String[] args) { //Caracteristicas de main. Void es vacio.La funcion main no va a devolver nada. 
+		System.out.println("Hello World");
+	}
+}
+
+	
+
