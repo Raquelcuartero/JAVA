@@ -1,0 +1,46 @@
+public class Mascota{
+    //atributos
+    String nombre;
+    String tipo;//si es un perro o gato...anaconda...
+    int fecha[3];//dia,mes,año
+    char sexo;
+    //Constructor:función cuyo cometido es que la clase cobre vida
+    public Mascota(String nombre, String tipo){//Puedes meter tantos como quieras
+        this.nombre=nombre;
+        this.tipo=tipo;
+    }    
+    
+    
+    
+    
+    
+    
+    //metodos
+    String devuelvenombre(){
+        return(nombre);
+    }
+    String devuelvetipo(){
+        return(tipo);
+    }
+    char devuelvesexo(){
+        return(sexo);
+    }
+    void cambiarNombre(String nuevoNombre){
+        nombre=nuevoNombre;    
+    }
+    public class principal(){
+        public static void main(String args[]){
+            Mascota miPerritoFaldero;
+            miPerritoFaldero=new Mascota();
+        }
+   } 
+   
+   
+ }
+    
+    
+
+
+
+
+	
