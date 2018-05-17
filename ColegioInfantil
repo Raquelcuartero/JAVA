@@ -4,7 +4,6 @@ public class ColegioInfantil extends Colegio {
 			boolean calefaccionCentral, int numeroAulas, boolean pabellon,boolean tienePatioInfantil) {
 		super(direccion, codigoPostal, altura, calefaccionCentral, numeroAulas,
 				pabellon);
-		// TODO Auto-generated constructor stub
 	}
 
 }
